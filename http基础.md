@@ -13,6 +13,14 @@ multipart/form-data
 multipart/byteranges  
 ### 6、获取部分内容的范围请求（range request）
 Range: byte=1000~2000
+### 7、状态码
+#### 1）、状态码的类别
+![状态码类别](./http-status.png)
+#### 2)、常用的状态码
+2XX:200 OK, 204 No Content, 206 Patitial Content  
+3XX:301 Moved Permanently, 302 Found, 303 See Other, 304 Not Modified, 307 Temporary Redirect  
+4XX:400 Bad Request, 401 Unauthoried, 403 Forbidden, 404 Not Found  
+5XX:500 Internal Server Error, 503 Service Unavaliable  
 
 
 
